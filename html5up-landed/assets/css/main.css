@@ -3189,7 +3189,7 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #020202;
+			border-color: #E44C65;
 		}
 
 		.spotlight.style2 .content {
@@ -3197,7 +3197,7 @@ input, select, textarea {
 		}
 
 		.spotlight.style3 .content {
-			border-color: #39c088;
+			border-color: #5480f1;
 		}
 
 		.spotlight.inactive .content {
@@ -4335,3 +4335,24 @@ input, select, textarea {
 					}
 
 }
+
+.row > .beatsbymeimg {
+	width: 50%;
+}
+
+.row > .description {
+	width: 50%;
+}
+
+img {
+	border-radius: 30px;
+}
+
+/* .button {
+	display: block;
+  width: 100%;
+  border: none;
+  
+  cursor: pointer;
+  text-align: center;
+} */
