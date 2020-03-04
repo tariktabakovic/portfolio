@@ -131,10 +131,11 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		color: black;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: black;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -666,7 +667,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.container {
-				width: 90%;
+				/* width: 90%; */
 				max-width: 100%;
 			}
 
@@ -675,7 +676,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.container {
-				width: 100% !important;
+				max-width: 100% !important;
 			}
 
 		}
@@ -879,6 +880,7 @@ input, select, textarea {
 
 			.row > * {
 				padding: 0 0 0 2.5em;
+				display: center;
 			}
 
 			.row.gtr-uniform {
@@ -1610,9 +1612,9 @@ input, select, textarea {
 					margin-left: -2.5em;
 				}
 
-					.row > * {
+					/* .row > * {
 						padding: 0 0 0 2.5em;
-					}
+					} */
 
 					.row.gtr-uniform {
 						margin-top: -2.5em;
@@ -1655,6 +1657,7 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 5em;
 						}
+								
 
 		}
 
@@ -1900,6 +1903,7 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 5em;
 						}
+
 
 		}
 
@@ -2155,7 +2159,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #ffffff;
+		color:black;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2948,7 +2952,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #e44c65;
+			background-image: url('/Users/tariktabakovic/portfolio/html5up-landed/images/elegant2.jpeg');
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2957,7 +2961,10 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #e76278;
+				background-color: #5480f1;
+				text-shadow: 0 0 2em rgba(255,255,255,1);
+				color: #ffffff;
+				border-color: #ffffff;
 			}
 
 			input[type="submit"].primary:active,
@@ -3000,6 +3007,7 @@ input, select, textarea {
 
 		.goto-next:before {
 			background-image: url("images/arrow.svg");
+			/* background-color: black, transparent; */
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: contain;
@@ -3189,7 +3197,7 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #E44C65;
+			border-color: #5480f1;
 		}
 
 		.spotlight.style2 .content {
@@ -3522,10 +3530,10 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: url("/Users/tariktabakovic/portfolio/html5up-landed/images/subtle_grunge_@2X.png");
+			background-image:	url("/Users/tariktabakovic/portfolio/html5up-landed/images/subtle_grunge_@2X.png");
+			/* background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");; */
 			content: '';
 			display: block;
 			height: 100%;
@@ -3664,7 +3672,7 @@ input, select, textarea {
 			}
 
 			.spotlight .content {
-				background-color: #1c1d26;
+				background-image: url('/Users/tariktabakovic/portfolio/html5up-landed/images/subtle_grunge_@2X.png');
 				border-width: 0 !important;
 				border-top-width: 0.35em !important;
 				bottom: auto !important;
@@ -4119,7 +4127,7 @@ input, select, textarea {
 			}
 
 				#titleBar .title {
-					color: #ffffff;
+					color:transparent;
 					display: block;
 					font-weight: 300;
 					height: 44px;
@@ -4334,19 +4342,14 @@ input, select, textarea {
 						margin: 0;
 						padding: 0;
 					}
+				
+				}
 
-}
 
-.row > .beatsbymeimg {
-	width: 50%;
-}
 
-.row > .description {
-	width: 50%;
-}
-
-img {
+.row img {
 	border-radius: 30px;
+	display: block;
 }
 
 /* .button {
