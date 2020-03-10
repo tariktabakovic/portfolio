@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	html, body {
-		background: #1c1d26;
+		/* background: #1c1d26; */
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -638,6 +638,7 @@ input, select, textarea {
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		width: 70em;
+		display: center
 	}
 
 		.container.xsmall {
@@ -2636,51 +2637,62 @@ input, select, textarea {
 				.devicon-javascript-plain {
 					Font-size: 4rem;
 					display: inline-block;
+					color: black;
 				}
 
 				.devicon-express-original-wordmark {
 					font-size: 4rem;
 					display: inline-block;
+					color: black;
 				}
 				
 				.devicon-nodejs-plain-wordmark{
 					font-size: 4rem;
 					display: inline-block;
+					color: black;
 				}
 
 				.devicon-python-plain-wordmark{
 					font-size: 4rem;
 					display: inline-block;
+					color: black;
 				}
 
 				.devicon-postgresql-plain-wordmark{
 					font-size: 4rem;
 					display: inline-block;
+					color: black;
 				}
 
 				.devicon-html5-plain-wordmark{
 					font-size: 4rem;
 					display: inline-block;
+					color: black;
 				}
 				.devicon-css3-plain-wordmark{
 					font-size: 4rem;
 					display: inline-block;
+					color: black;
 				}
 				.devicon-bootstrap-plain-wordmark{
 					font-size: 4rem;
 					display: inline-block;
+					color: black;
 				}
 				.devicon-github-plain-wordmark{
 					font-size: 4rem;
 					display: inline-block;
+					color: black;
 				}
 				.devicon-react-original-wordmark{
 					font-size: 4rem;
 					display: inline-block;
+					color: black;
 				}
 				.devicon-visualstudio-plain-wordmark{
 					font-size: 4rem;
 					display: inline-block;
+					color: black;
 				}
 /* Actions */
 
@@ -3007,7 +3019,6 @@ input, select, textarea {
 
 		.goto-next:before {
 			background-image: url("images/arrow.svg");
-			/* background-color: black, transparent; */
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: contain;
@@ -3145,6 +3156,7 @@ input, select, textarea {
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
+			display: center;
 		}
 
 		.spotlight .goto-next {
@@ -3197,15 +3209,24 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #5480f1;
+			border-style: ridge;
+  			/* border-color:purple;
+  			border-width: 7px; */
+			/* border-color: #5480f1; */
 		}
 
 		.spotlight.style2 .content {
-			border-color: #5480f1;
+			border-style: ridge;
+  			/* border-color:purple;
+  			border-width: 7px; */
+			/* border-color: #5480f1; */
 		}
 
 		.spotlight.style3 .content {
-			border-color: #5480f1;
+			border-style: ridge;
+  			/* border-color:purple;
+  			border-width: 7px; */
+			/* border-color: #5480f1; */
 		}
 
 		.spotlight.inactive .content {
@@ -3257,6 +3278,8 @@ input, select, textarea {
 
 	.wrapper {
 		padding: 6em 0 4em 0;
+		border-style: ridge;
+		background-image: url('/Users/tariktabakovic/portfolio/html5up-landed/images/subtle_grunge_@2X.png');
 	}
 
 		.wrapper.style2 {
@@ -3268,7 +3291,7 @@ input, select, textarea {
 			.wrapper.style2 input[type="email"]:focus,
 			.wrapper.style2 select:focus,
 			.wrapper.style2 textarea:focus {
-				border-color: rgba(255, 255, 255, 0.5);
+				border-style: rgba(255, 255, 255, 0.5);
 			}
 
 			.wrapper.style2 input[type="submit"]:hover, .wrapper.style2 input[type="submit"]:active,
